@@ -1,0 +1,28 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "hooks": "./hooks",
+          "contexts": "./contexts",
+          "components": "./components",
+          "helpers": "./helpers",
+          "layouts": "./layouts",
+          "theme": "./styles/theme.json",
+          "fixtures": "./fixtures",
+        }
+      }
+    ]
+  ]
+}
