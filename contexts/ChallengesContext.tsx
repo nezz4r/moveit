@@ -1,5 +1,5 @@
 import React, { useState, ReactNode, useEffect } from 'react';
-import challenges from "../fixtures/challenges.json"
+import challenges from "fixtures/challenges.json"
 
 interface ProviderProps{
   children: ReactNode;

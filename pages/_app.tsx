@@ -1,7 +1,7 @@
 import "styles/global.sass"
 
-import { ChallengesContextProvider } from "../contexts/ChallengesContext"
-import { CountdownContextProvider } from "../contexts/CountdownContext"
+import { ChallengesContextProvider } from "contexts/ChallengesContext"
+import { CountdownContextProvider } from "contexts/CountdownContext"
 
 
 function MyApp({ Component, pageProps }) {
