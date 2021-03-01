@@ -18,9 +18,7 @@
           "contexts": "./contexts",
           "components": "./components",
           "helpers": "./helpers",
-          "layouts": "./layouts",
-          "theme": "./styles/theme.json",
-          "fixtures": "./fixtures",
+          "fixtures": "./fixtures"
         }
       }
     ]
